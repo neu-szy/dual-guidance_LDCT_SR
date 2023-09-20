@@ -1,5 +1,5 @@
 # README
-The official implement of our paper which was submitted to MICCAI 2023.
+**[MICCAI2023]** The official implementation of **Low-dose CT image super-resolution network with dual-guidance feature distillation and dual-path content communication**.
 
 This repository is modified from [BasicSR](https://github.com/XPixelGroup/BasicSR). Thanks for the open source code of [BasicSR](https://github.com/XPixelGroup/BasicSR).
 ## Installation
@@ -9,7 +9,7 @@ conda activate new_env
 pip install -r requirements.txt
 pip install -e .
 ```
-More details could be found in [the installation ducoment of Basicsr](https://github.com/XPixelGroup/BasicSR/blob/master/docs/INSTALL.md).
+More details could be found in [the installation ducoment of BasicSR](https://github.com/XPixelGroup/BasicSR/blob/master/docs/INSTALL.md).
 ## Data preparation
 You should prepare your data in this way:
 ```
