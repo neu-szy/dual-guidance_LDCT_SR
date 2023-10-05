@@ -74,3 +74,15 @@ python basicsr/test.py --opt options/test/your_config_file.yml
 The results will be saved in "results" folder.
 
 An example, including models and dataset, could be found in [BaiduDisk:z3gy](https://pan.baidu.com/s/1l7lXLCOJWeQVZOt_ldtGbg).
+
+## Cite
+```
+@inproceedings{chi2023low,
+  title={Low-Dose CT Image Super-Resolution Network with Dual-Guidance Feature Distillation and Dual-Path Content Communication},
+  author={Chi, Jianning and Sun, Zhiyi and Zhao, Tianli and Wang, Huan and Yu, Xiaosheng and Wu, Chengdong},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={98--108},
+  year={2023},
+  organization={Springer}
+}
+```
