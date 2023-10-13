@@ -58,7 +58,7 @@ data_rootdir
                 - val
                 - test
 ```
-And you should modify the path in configuration files in "opations/train/*.yaml" or "opations/test/*.yaml".
+And you should modify the path in configuration files in "opations/train/\*.yml" or "opations/test/\*.yml".
 ## Training
 Run:
 ```bash
@@ -66,7 +66,7 @@ python basicsr/train.py --opt options/train/your_config_file.yml
 ```
 The model files will be saved in "experiments" folder.
 ## Testing
-Firstly, you should modify the model paths in "opations/test/*.yaml".
+Firstly, you should modify the model paths in "opations/test/\*.yml".
 Then, run:
 ```bash
 python basicsr/test.py --opt options/test/your_config_file.yml
